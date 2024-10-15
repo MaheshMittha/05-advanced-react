@@ -9,8 +9,9 @@ const fetchpractice = () => {
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch(url);
-            const data = await response.json();
-            SetUsers(data);
+            const user = await response.json();
+            console.log(user);
+            SetUsers(users);
         }
         fetchData();
     }, [])
@@ -23,7 +24,7 @@ const fetchpractice = () => {
             const { id, login , avatar_url,html_url} = user
             return <li key={id}>
                 <div>
-                    <h3>{login}</h3>
+                    <div>{login}</div>
                     <img src={avatar_url} alt={login}/>
                     <div>{login}</div>
                     <a href={html_url}>Profile</a>
