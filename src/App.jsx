@@ -1,6 +1,6 @@
- 
 
- // 01- UseState Hook
+
+// 01- UseState Hook
 // import Starter from './tutorial/01-useState/starter/01-error-example'
 // import Starter from './tutorial/01-useState/starter/02-useState-basics' 
 // import Starter from './tutorial/01-useState/starter/03-useState-array'
@@ -22,16 +22,25 @@
 // 03- Conditional- Rendering 
 
 //import Starter from './tutorial/03-conditional-rendering/starter/01-multiple-returns-basics'
-// import Starter from './tutorial/03-conditional-rendering/starter/02-multiple-returns-fetch-data'
+//import Starter from './tutorial/03-conditional-rendering/starter/02-multiple-returns-fetch-data'
 //import Starter from  './tutorial/03-conditional-rendering/starter/002-multiple-returns-fetch-data'
-import Starter from './tutorial/03-conditional-rendering/starter/0002-multiple-returns-fetch-data'
+//import Starter from './tutorial/03-conditional-rendering/starter/0002-multiple-returns-fetch-data'
+// import Starter from './tutorial/03-conditional-rendering/starter/03-hooks-rule'
+
+
+// 04- Short-circuit -Overview
+
+//import Starter from './tutorial/03-conditional-rendering/starter/04-short-circuit-overview'
+import Starter from './tutorial/03-conditional-rendering/starter/05-short-circuit-examples'
+
+
 
 
 
 function App() {
   return (
     <div className='container'>
-      <Starter/>
+      <Starter />
     </div>
   );
 }
