@@ -31,16 +31,28 @@
 // 04- Short-circuit -Overview
 
 //import Starter from './tutorial/03-conditional-rendering/starter/04-short-circuit-overview'
-import Starter from './tutorial/03-conditional-rendering/starter/05-short-circuit-examples'
-
-
-
+// import Starter from './tutorial/03-conditional-rendering/starter/05-short-circuit-examples'
+//import Starter from './tutorial/03-conditional-rendering/starter/06-toggle-challenge'
+// import Starter from './tutorial/03-conditional-rendering/starter/006-toggle-challenge'
+// import Starter from './tutorial/03-conditional-rendering/starter/0006-toggle-challenge'
+//import Starter from './tutorial/03-conditional-rendering/starter/07-user-challenge'
+// import Starter from './tutorial/03-conditional-rendering/starter/007-user-challenge'
+// import Starter from './tutorial/03-conditional-rendering/starter/0007-user-challenge'
+//import Starter from './tutorial/03-conditional-rendering/starter/00007-user-challenge'
+//import Starter from './tutorial/03-conditional-rendering/starter/000007-user-challenge'
+//import Starter from './tutorial/03-conditional-rendering/starter/0000007-user-challenge'
+//import Starter from './tutorial/03-conditional-rendering/starter/08-cleanup-function'
+//import Starter from './tutorial/03-conditional-rendering/starter/008-cleanup-function'
+import Starter from './tutorial/03-conditional-rendering/starter/0008-cleanup-function'
 
 
 function App() {
+
   return (
+
     <div className='container'>
       <Starter />
+      
     </div>
   );
 }
