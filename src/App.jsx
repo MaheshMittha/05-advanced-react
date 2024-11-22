@@ -32,7 +32,7 @@
 
 //import Starter from './tutorial/03-conditional-rendering/starter/04-short-circuit-overview'
 // import Starter from './tutorial/03-conditional-rendering/starter/05-short-circuit-examples'
-//import Starter from './tutorial/03-conditional-rendering/starter/06-toggle-challenge'
+// import Starter from './tutorial/03-conditional-rendering/starter/06-toggle-challenge'
 // import Starter from './tutorial/03-conditional-rendering/starter/006-toggle-challenge'
 // import Starter from './tutorial/03-conditional-rendering/starter/0006-toggle-challenge'
 //import Starter from './tutorial/03-conditional-rendering/starter/07-user-challenge'
@@ -41,18 +41,96 @@
 //import Starter from './tutorial/03-conditional-rendering/starter/00007-user-challenge'
 //import Starter from './tutorial/03-conditional-rendering/starter/000007-user-challenge'
 //import Starter from './tutorial/03-conditional-rendering/starter/0000007-user-challenge'
-//import Starter from './tutorial/03-conditional-rendering/starter/08-cleanup-function'
+// import Starter from './tutorial/03-conditional-rendering/starter/08-cleanup-function'
 //import Starter from './tutorial/03-conditional-rendering/starter/008-cleanup-function'
-import Starter from './tutorial/03-conditional-rendering/starter/0008-cleanup-function'
+//import Starter from './tutorial/03-conditional-rendering/starter/0008-cleanup-function'
+
+
+// 04-Projrct structure 
+
+//import Navbar from './tutorial/04-project-structure/starter/Navbar/Index'
+//import Home from './tutorial/04-project-structure/starter/Pages/Home'
+//import About from './tutorial/04-project-structure/starter/Pages/About'
+//import { About, Home } from "./tutorial/04-project-structure/starter/Pages";
+//import Example from "./tutorial/04-project-structure/starter/Example/Example";
+
+
+// 05-Leverage-JavaScript
+//import List from "./tutorial/05-leverage-javascript/starter/List";
+
+
+
+// 06-Forms
+
+//import Starter from './tutorial/06-forms/starter/01-controlled-inputs'
+// import Starter from './tutorial/06-forms/starter/02-controlled-inputs'
+
+// import Starter from './tutorial/06-forms/starter/02-user-challenge'
+// import Starter from './tutorial/06-forms/starter/03-user-challenge'
+// import Starter from './tutorial/06-forms/starter/002-user-challenge'
+//import Starter from './tutorial/06-forms/starter/0002-user-challenge'
+// import Starter from './tutorial/06-forms/starter/03-multiple-inputs'
+//import Starter from './tutorial/06-forms/starter/003-multiple-inputs'
+// import Starter from './tutorial/06-forms/starter/0003-multiple-inputs'
+//import Starter from './tutorial/06-forms/starter/04-multiple-inputs'
+// import Starter from './tutorial/06-forms/starter/04-other-inputs'
+// import Starter from './tutorial/06-forms/starter/05-other-inputs'
+// import Starter from './tutorial/06-forms/starter/05-form-data'
+// import Starter from './tutorial/06-forms/starter/06-form-data'
+// import Starter from './tutorial/06-forms/starter/07-form-data'
+// import Starter from './tutorial/06-forms/starter/08-lorem-ipsum'
+// import Starter from './tutorial/06-forms/starter/practice'
+
+
+// 07 useRef Hook
+
+// import Starter from './tutorial/07-useRef/starter/01-useRef-basics'
+// import Starter from './tutorial/07-useRef/starter/02-useRef-basics'
+// import Starter from './tutorial/07-useRef/starter/03-useRef-basics'
+
+
+// 08 Custom hook
+
+// import Starter from './tutorial/08-custom-hooks/starter/01-toggle'
+// import Starter from './tutorial/08-custom-hooks/starter/02-fetch-data'
+
+// 09 Context Api 
+
+// import Starter from './tutorial/09-context-api/starter/PropDrilling/Navbar'
+import Starter from './tutorial/09-context-api/context/Navbar'
+
 
 
 function App() {
-
   return (
-
     <div className='container'>
-      <Starter />
-      
+      <>
+      <Starter/>
+      </>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* <h2>Leverage Javascript</h2> */}
+      {/* <List/> */}
+
     </div>
   );
 }

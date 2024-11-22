@@ -6,14 +6,20 @@ const CleanupFunction = () => {
 
     const DisplayPostToogle = () => {
         useEffect(() => {
-            const insId = setInterval(() => {
-                console.log("Hello From set interval");
-            }, 1000)
+            // const insId = setInterval(() => {
+            //     console.log("Hello From set interval");
+            // }, 1000)
 
-            return (() => {
-                clearInterval(insId);
-                console.log("log from clear interval");
-            })
+            // return (() => {
+            //     clearInterval(insId);
+            //     console.log("log from clear interval");
+            // })
+
+            const SomeFunc = () => {
+                //logic here
+            }
+            window.addEventListener('scroll', SomeFunc)
+            return ()=> window.removeEventListener('scroll', SomeFunc) 
 
         }, [])
 
